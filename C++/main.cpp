@@ -13,6 +13,8 @@ int main()
     std::cout<< " and " <<v2;
     std::cout<< " is " <<v1+v2<< std::endl;
     */
+    std::cout<<"\n"
+            "\tHi!\n"<<std::endl;
     int sum=0,val,en;
     while(std::cin>>en>>val){
         if(val>=en)
