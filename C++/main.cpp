@@ -13,7 +13,7 @@ int main()
     std::cout<< " and " <<v2;
     std::cout<< " is " <<v1+v2<< std::endl;
     */
-    std::cout<<"\n"
+    /*std::cout<<"\n"
             "\tHi!\n"<<std::endl;
     int sum=0,val,en;
     while(std::cin>>en>>val){
@@ -26,7 +26,7 @@ int main()
     }
     std::cout<<"Sum is " <<sum<<std::endl;
 
-    /*int curr=0,val=0;
+    int curr=0,val=0;
     if(std::cin>>curr){
         int count=1;
         while(std::cin>>val){
@@ -42,5 +42,9 @@ int main()
         std::cout<<curr <<" occurs " << count <<std::endl;
     }
     */
+    int i=100, Sum=0;
+    for(int i =0;i!=10;++i)
+        Sum+=i;
+    std::cout<<i<<" "<<Sum<<std::endl;
     return 0;
 }
